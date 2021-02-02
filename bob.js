@@ -7,7 +7,7 @@ class bob
 			isStatic:false,
 			restitution:0.3,
 			friction:0.5,
-			density:1.2
+			//density:1.2
         }
     this.x = x
     this.y = y
@@ -22,7 +22,7 @@ class bob
         
         push()
         translate(bobpos.x, bobpos.y);
-        rectMode(CENTER)
+        //rectMode(CENTER)
         strokeWeight(3);
         fill(225,0,0)
         ellipse(0,0,this.r, this.r);

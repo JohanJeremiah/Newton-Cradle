@@ -31,11 +31,11 @@ function setup() {
 	roofObject = new Roof(400,70,700,30)
 	
 	 
-	rope1=new rope(bobObject1.body,roofObject.body,30,15)
-	rope2=new rope(bobObject2.body,roofObject.body,30,15)
-    rope3=new rope(bobObject3.body,roofObject.body,30,15)
-	rope4=new rope(bobObject4.body,roofObject.body,30,15)
-	rope5=new rope(bobObject5.body,roofObject.body,30,15)
+	rope1=new rope(bobObject1.body,roofObject.body,-170,15)
+	rope2=new rope(bobObject2.body,roofObject.body,-140,15)
+    rope3=new rope(bobObject3.body,roofObject.body,-110,15)
+	rope4=new rope(bobObject4.body,roofObject.body,-80,15)
+	rope5=new rope(bobObject5.body,roofObject.body,-50,15)
 	
 	
 
